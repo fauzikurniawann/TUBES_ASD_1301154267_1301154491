@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1480777831 source:e:\tubes fix\tubes\listchild.cpp
+	"listchild.h"
+
+1480776004 e:\tubes fix\tubes\listchild.h
+	<iostream>
+
+1480868760 source:e:\tubes fix\tubes\listparent.cpp
+	"listparent.h"
+	"listchild.h"
+
+1480866009 e:\tubes fix\tubes\listparent.h
+	<iostream>
+	"listchild.h"
+
+1480759920 source:e:\tubes fix\tubes\main.cpp
+	<iostream>
+	"menu.h"
+
+1480863756 e:\tubes fix\tubes\menu.h
+	"listparent.h"
+	"listchild.h"
+	<conio.h>
+
+1480869105 source:e:\tubes fix\tubes\menu.cpp
+	"listparent.h"
+	"listchild.h"
+	"menu.h"
+	<conio.h>
+
